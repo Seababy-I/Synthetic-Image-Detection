@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch
+*.pth
+# model.pth is included if small enough, but usually we ignore it and use LFS
+# However, user's model is 44MB, so let's allow it for now.
+!model.pth
+
+# React / Node
+node_modules/
+dist/
+.env
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Huge Datasets
+DATA/
