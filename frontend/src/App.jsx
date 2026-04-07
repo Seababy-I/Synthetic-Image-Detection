@@ -1,6 +1,6 @@
 import { useState, useCallback, useRef } from "react";
 
-const API_URL = "https://synthetic-image-detection.onrender.com/predict";
+const API_URL = "/predict";
 
 export default function App() {
   const [file, setFile] = useState(null);
